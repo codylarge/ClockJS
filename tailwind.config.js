@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {    
+      fontFamily: {
+      chalk: ['Gochi Hand', 'cursive'],
+    },
+  },
+
   },
   plugins: [],
 }
